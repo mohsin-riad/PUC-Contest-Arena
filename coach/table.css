@@ -1,0 +1,22 @@
+#admin {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: separate;
+  width: 100%;
+}
+
+#admin td, #admin th {
+  border: 2px solid rgb(46, 46, 46);
+  padding: 15px;
+}
+
+#admin tr:nth-child(even){background-color: #f2f2f2;}
+
+#admin tr:hover {background-color: rgb(89, 216, 255);}
+
+#admin th {
+  padding-top: 25px;
+  padding-bottom: 18px;
+  text-align: left;
+  background-color: rgba(29, 29, 29, 0.932);
+  color: white;
+}
